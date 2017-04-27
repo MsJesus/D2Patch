@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5515DBFA1E5F697D009ED006 /* D2PGenerationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5515DBF81E5F697D009ED006 /* D2PGenerationManager.h */; };
+		5515DBFB1E5F697D009ED006 /* D2PGenerationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5515DBF91E5F697D009ED006 /* D2PGenerationManager.m */; };
+		558D02891E5E2870003BBFC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 558D02881E5E2870003BBFC0 /* main.m */; };
+		558D028B1E5E29A6003BBFC0 /* libD2Patch.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 558D027B1E5E27E0003BBFC0 /* libD2Patch.dylib */; };
+		558D028E1E5E2B56003BBFC0 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558D028D1E5E2B56003BBFC0 /* OpenGL.framework */; };
+		558D02911E5E3941003BBFC0 /* D2PTextureDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 558D028F1E5E3941003BBFC0 /* D2PTextureDescriptor.h */; };
+		558D02921E5E3941003BBFC0 /* D2PTextureDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 558D02901E5E3941003BBFC0 /* D2PTextureDescriptor.m */; };
+		558D02951E5E3ACB003BBFC0 /* D2PUnpackBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 558D02931E5E3ACB003BBFC0 /* D2PUnpackBuffer.h */; };
+		558D02961E5E3ACB003BBFC0 /* D2PUnpackBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 558D02941E5E3ACB003BBFC0 /* D2PUnpackBuffer.m */; };
+		558D02991E5E3E1D003BBFC0 /* D2PUnpackBufferCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 558D02971E5E3E1D003BBFC0 /* D2PUnpackBufferCache.h */; };
+		558D029A1E5E3E1D003BBFC0 /* D2PUnpackBufferCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 558D02981E5E3E1D003BBFC0 /* D2PUnpackBufferCache.m */; };
+		558D029D1E5E5EF5003BBFC0 /* D2PTextureHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 558D029B1E5E5EF5003BBFC0 /* D2PTextureHash.h */; };
+		558D029E1E5E5EF5003BBFC0 /* D2PTextureHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 558D029C1E5E5EF5003BBFC0 /* D2PTextureHash.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		558D028A1E5E298B003BBFC0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "~/Desktop";
+			dstSubfolderSpec = 0;
+			files = (
+				558D028B1E5E29A6003BBFC0 /* libD2Patch.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5515DBF81E5F697D009ED006 /* D2PGenerationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = D2PGenerationManager.h; sourceTree = "<group>"; };
+		5515DBF91E5F697D009ED006 /* D2PGenerationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = D2PGenerationManager.m; sourceTree = "<group>"; };
+		558D027B1E5E27E0003BBFC0 /* libD2Patch.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libD2Patch.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		558D02881E5E2870003BBFC0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		558D028D1E5E2B56003BBFC0 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		558D028F1E5E3941003BBFC0 /* D2PTextureDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = D2PTextureDescriptor.h; sourceTree = "<group>"; };
+		558D02901E5E3941003BBFC0 /* D2PTextureDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = D2PTextureDescriptor.m; sourceTree = "<group>"; };
+		558D02931E5E3ACB003BBFC0 /* D2PUnpackBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = D2PUnpackBuffer.h; sourceTree = "<group>"; };
+		558D02941E5E3ACB003BBFC0 /* D2PUnpackBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = D2PUnpackBuffer.m; sourceTree = "<group>"; };
+		558D02971E5E3E1D003BBFC0 /* D2PUnpackBufferCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = D2PUnpackBufferCache.h; sourceTree = "<group>"; };
+		558D02981E5E3E1D003BBFC0 /* D2PUnpackBufferCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = D2PUnpackBufferCache.m; sourceTree = "<group>"; };
+		558D029B1E5E5EF5003BBFC0 /* D2PTextureHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = D2PTextureHash.h; sourceTree = "<group>"; };
+		558D029C1E5E5EF5003BBFC0 /* D2PTextureHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = D2PTextureHash.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		558D02781E5E27E0003BBFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558D028E1E5E2B56003BBFC0 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		558D02721E5E27E0003BBFC0 = {
+			isa = PBXGroup;
+			children = (
+				5515DBF81E5F697D009ED006 /* D2PGenerationManager.h */,
+				5515DBF91E5F697D009ED006 /* D2PGenerationManager.m */,
+				558D029B1E5E5EF5003BBFC0 /* D2PTextureHash.h */,
+				558D029C1E5E5EF5003BBFC0 /* D2PTextureHash.m */,
+				558D02971E5E3E1D003BBFC0 /* D2PUnpackBufferCache.h */,
+				558D02981E5E3E1D003BBFC0 /* D2PUnpackBufferCache.m */,
+				558D02931E5E3ACB003BBFC0 /* D2PUnpackBuffer.h */,
+				558D02941E5E3ACB003BBFC0 /* D2PUnpackBuffer.m */,
+				558D028F1E5E3941003BBFC0 /* D2PTextureDescriptor.h */,
+				558D02901E5E3941003BBFC0 /* D2PTextureDescriptor.m */,
+				558D02881E5E2870003BBFC0 /* main.m */,
+				558D027C1E5E27E0003BBFC0 /* Products */,
+				558D028C1E5E2B56003BBFC0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		558D027C1E5E27E0003BBFC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				558D027B1E5E27E0003BBFC0 /* libD2Patch.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		558D028C1E5E2B56003BBFC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				558D028D1E5E2B56003BBFC0 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		558D02791E5E27E0003BBFC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558D02991E5E3E1D003BBFC0 /* D2PUnpackBufferCache.h in Headers */,
+				558D029D1E5E5EF5003BBFC0 /* D2PTextureHash.h in Headers */,
+				558D02911E5E3941003BBFC0 /* D2PTextureDescriptor.h in Headers */,
+				558D02951E5E3ACB003BBFC0 /* D2PUnpackBuffer.h in Headers */,
+				5515DBFA1E5F697D009ED006 /* D2PGenerationManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		558D027A1E5E27E0003BBFC0 /* D2Patch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 558D027F1E5E27E0003BBFC0 /* Build configuration list for PBXNativeTarget "D2Patch" */;
+			buildPhases = (
+				558D02771E5E27E0003BBFC0 /* Sources */,
+				558D02781E5E27E0003BBFC0 /* Frameworks */,
+				558D02791E5E27E0003BBFC0 /* Headers */,
+				558D028A1E5E298B003BBFC0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = D2Patch;
+			productName = D2Patch;
+			productReference = 558D027B1E5E27E0003BBFC0 /* libD2Patch.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		558D02731E5E27E0003BBFC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Rook Systems";
+				TargetAttributes = {
+					558D027A1E5E27E0003BBFC0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 558D02761E5E27E0003BBFC0 /* Build configuration list for PBXProject "D2Patch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 558D02721E5E27E0003BBFC0;
+			productRefGroup = 558D027C1E5E27E0003BBFC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				558D027A1E5E27E0003BBFC0 /* D2Patch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		558D02771E5E27E0003BBFC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558D02891E5E2870003BBFC0 /* main.m in Sources */,
+				558D02961E5E3ACB003BBFC0 /* D2PUnpackBuffer.m in Sources */,
+				558D02921E5E3941003BBFC0 /* D2PTextureDescriptor.m in Sources */,
+				558D029A1E5E3E1D003BBFC0 /* D2PUnpackBufferCache.m in Sources */,
+				5515DBFB1E5F697D009ED006 /* D2PGenerationManager.m in Sources */,
+				558D029E1E5E5EF5003BBFC0 /* D2PTextureHash.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		558D027D1E5E27E0003BBFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		558D027E1E5E27E0003BBFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
+		558D02801E5E27E0003BBFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		558D02811E5E27E0003BBFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		558D02761E5E27E0003BBFC0 /* Build configuration list for PBXProject "D2Patch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558D027D1E5E27E0003BBFC0 /* Debug */,
+				558D027E1E5E27E0003BBFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		558D027F1E5E27E0003BBFC0 /* Build configuration list for PBXNativeTarget "D2Patch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558D02801E5E27E0003BBFC0 /* Debug */,
+				558D02811E5E27E0003BBFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 558D02731E5E27E0003BBFC0 /* Project object */;
+}
